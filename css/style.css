@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/elika.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: Georgia;
+}
+
+.form-box {
+    width: 580px;
+    background:rgba(0,0,0,0.8);
+    margin: 12% auto;
+    padding: 50px 0;
+    color: #FFF;
+    box-shadow:  0 0 20px 2px rgba(0,0,0,0.5);
+}
+
+.form-box h1 {
+    text-align: center;
+    margin-bottom:40px;
+}
+
+.form-box h1::before {
+    content: "";
+    display: inline-block;
+    background: #91907A;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.input-box {
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid #fFf;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.input-box input {
+    width: 90%;
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.input-box input::placeholder {
+    color: #fdfeff;
+    letter-spacing: 2px;
+}
+
+.fa {
+    margin-right:10px;
+}
+
+.eye {
+    position: absolute;
+    cursor: pointer;
+}
+
+.eye:hover {
+    color: #91907A;
+}
+
+
+#hide1 {
+    display: none;
+}
+
+.login-btn {
+    margin: 40px auto 20px;
+    display: block;
+    outline: none;
+    width: 80%;
+    border: 0;
+    padding:10px 0px;
+    border-radius: 3px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fffffff5;
+    border-right: 2px solid #fffffff5;
+    cursor: pointer;
+    background: #91907A;
+    transition:all .4s ease-in-out;
+}
+
+.login-btn:hover {
+    background: #79715A;
+    border-bottom: 2px solid #aa965596;
+    border-right: 2px solid #aa965596;
+}
